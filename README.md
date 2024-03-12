@@ -4,7 +4,8 @@ For better debugging, the code is divided into four parts: Detection, Backbone f
 
 # Detection 
 We have utilized RPN(https://github.com/microsoft/RegionCLIP) for locating bounding boxes, the boxes are organized according to the format:  
-detection_results\test
+detection_results\test 
+
 detection_results\train 
 
 
