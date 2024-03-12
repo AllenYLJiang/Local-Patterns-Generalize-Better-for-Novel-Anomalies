@@ -13,4 +13,15 @@ We have provided the backbone for feature extraction at backbone\
 The process: backbone\resnet_featuremap_as_backbone.py 
 The features are saved at: backbone\heatmaps_resnet 
 
+# Identifying language-informative local pattern
+prepare_anno.py organizes the results in backbone\heatmaps_resnet for Image-attention Module   
+The backbone features corresponding to train set are stored at resnet_caption.json with only normal behaviors  
+The backbone features corresponding to test set are stored at resnet_caption_test.json with abnormal behaviors    
+Then run Image-attention Module with inference_Image-attention-Module.py   
+Saved results: 
+The outputs for test set: Image_Module_output_features_test folder   
+The outputs for training sest: Image_Module_output_features_train folder   
+
+
+
 
