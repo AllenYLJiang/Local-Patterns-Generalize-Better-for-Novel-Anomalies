@@ -23,6 +23,15 @@ Saved results:
 The outputs for test set: Image_Module_output_features_test folder   
 The outputs for training set: Image_Module_output_features_train folder   
 
+# State Machine Module 
+Leverage the results in Image_Module_output_features_test and Image_Module_output_features_train to feed into State Machine Module    
+Note that the temporal associations between bounding boxes are addressed in folder detection_results where each item in json file has a key of "idx" denoting identity     
+Folder State-Machine-Module:     
+Train on normal data: train_statespace.py --smooth_or_predwithsmoothed_or_predwithunsmoothed train --num_transform 2    
+checkpoints are saved at data/exp_dir_state     
+Test on abnormal data:   
+revise checkpoint dir and run    
+train_statespace.py --smooth_or_predwithsmoothed_or_predwithunsmoothed predwithunsmoothed --num_transform 2     
 
 
 
