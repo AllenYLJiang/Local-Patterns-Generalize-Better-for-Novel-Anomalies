@@ -21,7 +21,7 @@ Then run Image-attention Module with inference_Image-attention-Module.py
 Note that the pretrained weights for Image-attention Module are at: pretrained folder    
 Saved results:    
 The outputs for test set: Image_Module_output_features_test folder   
-The outputs for training sest: Image_Module_output_features_train folder   
+The outputs for training set: Image_Module_output_features_train folder   
 
 
 
